@@ -43,10 +43,10 @@ agriscope/
 ├── app.py                                    # Interactive Streamlit Web Application
 ├── requirements.txt                          # Python dependencies for local run & Cloud deploy
 │
-├── Project_Synopsis_AvnishKumar_2400320100331.docx # Official HCLTech Project Synopsis
-├── agriscope_p_085_project_report.docx       # 10-Chapter Technical Project Report (Word)
-├── AgriScope_EDA_and_Modeling_Notebook.docx  # EDA & Modeling Notebook Document with 5 figures
-├── SRS_P085_agriscope.docx                   # System Requirements Specification Document
+├── Project_Synopsis_AvnishKumar_2400320100331.docx              # Official HCLTech Project Synopsis
+├── Project_Report_AvnishKumar_2400320100331.docx                # 10-Chapter Technical Project Report (Word)
+├── Project_EDA_and_Modeling_Notebook_AvnishKumar_2400320100331.docx # EDA & Modeling Notebook Document with 5 figures
+├── Project_SRS_AvnishKumar_2400320100331.docx                   # System Requirements Specification Document
 │
 ├── dataset.csv                               # Cleaned modeling dataset (5,015 rows, 20 columns)
 ├── data_dictionary.csv                       # Feature definitions, types, and domain bounds
