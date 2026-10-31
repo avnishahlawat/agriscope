@@ -45,9 +45,7 @@ agriscope/
 │
 ├── Project_Synopsis_AvnishKumar_2400320100331.docx # Official HCLTech Project Synopsis
 ├── agriscope_p_085_project_report.docx       # 10-Chapter Technical Project Report (Word)
-├── agriscope_p_085_project_report.pdf        # Formatted Academic Technical Report (PDF)
 ├── AgriScope_EDA_and_Modeling_Notebook.docx  # EDA & Modeling Notebook Document with 5 figures
-├── AgriScope_EDA_and_Modeling_Notebook.pdf   # Formatted EDA Document (PDF)
 ├── SRS_P085_agriscope.docx                   # System Requirements Specification Document
 │
 ├── dataset.csv                               # Cleaned modeling dataset (5,015 rows, 20 columns)
