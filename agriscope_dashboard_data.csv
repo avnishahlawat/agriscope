@@ -1,0 +1,16 @@
+Commodity,Market Name,Price Date,Latest_Price,Price_7_Days_Ago,Change_7_Days_Percent,Cheapest_Market,Lowest_Price,Costliest_Market,Highest_Price,Price_Spread,Spread_Percent
+Brinjal,Kalipur,2025-08-13,5800.0,4600.0,26.08695652173913,Asansol,4300.0,Birbhum,6400.0,2100.0,48.84
+Maize,Bhikangaon,2025-08-14,2152.0,2090.0,2.9665071770334928,Khargone,2135.0,Manawar,2315.0,180.0,8.43
+Maize,Dhamnod,2025-08-14,2250.0,2250.0,0.0,Khargone,2135.0,Manawar,2315.0,180.0,8.43
+Maize,Manawar,2025-08-14,2315.0,2250.0,2.888888888888889,Khargone,2135.0,Manawar,2315.0,180.0,8.43
+Brinjal,Khatra,2025-08-14,5000.0,4500.0,11.11111111111111,Asansol,4300.0,Birbhum,6400.0,2100.0,48.84
+Wheat,Asansol,2025-08-14,2732.5,2750.0,-0.6363636363636364,Raibareilly,2475.0,Bishnupur(Bankura),3000.0,525.0,21.21
+Brinjal,Bishnupur(Bankura),2025-08-14,5000.0,4500.0,11.11111111111111,Asansol,4300.0,Birbhum,6400.0,2100.0,48.84
+Wheat,Durgapur,2025-08-14,2740.0,2750.0,-0.36363636363636365,Raibareilly,2475.0,Bishnupur(Bankura),3000.0,525.0,21.21
+Brinjal,Asansol,2025-08-14,4300.0,4200.0,2.380952380952381,Asansol,4300.0,Birbhum,6400.0,2100.0,48.84
+Brinjal,Birbhum,2025-08-14,6400.0,4400.0,45.45454545454545,Asansol,4300.0,Birbhum,6400.0,2100.0,48.84
+Wheat,Bolpur,2025-08-14,2550.0,2550.0,0.0,Raibareilly,2475.0,Bishnupur(Bankura),3000.0,525.0,21.21
+Maize,Anjad,2025-08-14,2211.0,1962.5,12.662420382165603,Khargone,2135.0,Manawar,2315.0,180.0,8.43
+Maize,Khargone,2025-08-14,2135.0,2200.0,-2.9545454545454546,Khargone,2135.0,Manawar,2315.0,180.0,8.43
+Wheat,Bishnupur(Bankura),2025-08-14,3000.0,3000.0,0.0,Raibareilly,2475.0,Bishnupur(Bankura),3000.0,525.0,21.21
+Wheat,Raibareilly,2025-08-14,2475.0,2490.0,-0.6024096385542169,Raibareilly,2475.0,Bishnupur(Bankura),3000.0,525.0,21.21

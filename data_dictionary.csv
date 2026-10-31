@@ -1,0 +1,21 @@
+Column_Name,Data_Type,Description,Example_Value,Domain_Significance
+Price Date,Datetime (YYYY-MM-DD),Calendar date on which wholesale mandi trading prices were recorded.,2024-09-14,Temporal index used for time-series sequence ordering and chronological validation.
+Commodity,String / Categorical,"Name of the agricultural crop being transacted (Wheat, Maize, or Brinjal).",Wheat,Categorical feature capturing commodity-specific storage characteristics and perishability.
+Market Name,String / Categorical,Wholesale agricultural market yard (mandi) where transactions took place.,Asansol,Spatial entity representing regional supply-demand equilibrium and local trading infrastructure.
+Modal_Price,Float,Most frequently occurring wholesale clearing price of the day (INR per Quintal).,2450.00,Primary target variable for forecasting and historical benchmark evaluations.
+Day_of_Week,Integer (0-6),"Day of the week (Monday=0, Sunday=6).",0,Captures intra-week market trading rhythms and weekend mandi closure effects.
+Month,Integer (1-12),Calendar month of the year (January=1 to December=12).,4,Captures broad annual harvesting and procurement seasons (Rabi vs Kharif seasons).
+Week_of_Year,Integer (1-53),ISO standard calendar week number of the year.,15,Provides fine-grained seasonal representation of annual crop arrival cycles.
+Lag_1,Float,Wholesale modal price from exactly 1 day prior (t-1).,2440.00,Captures high short-term price persistence and immediate market memory.
+Lag_7,Float,Wholesale modal price from exactly 7 days prior (t-7).,2420.00,Weekly seasonal baseline; forms the core signal for the Seasonal Naive persistence model.
+Lag_14,Float,Wholesale modal price from exactly 14 days prior (t-14).,2390.00,Fortnightly momentum and multi-week trend anchor.
+Lag_30,Float,Wholesale modal price from exactly 30 days prior (t-30).,2350.00,Monthly baseline price level capturing broader macroeconomic shifts.
+Rolling_Mean_7,Float,7-day rolling average modal price computed over shifted past observations (shift(1)).,2435.50,Smoothed weekly price level; shift(1) strictly prevents look-ahead target leakage.
+Rolling_Std_7,Float,7-day rolling standard deviation of modal price computed over shifted past observations.,18.25,Measures short-term price volatility and market arrival instability.
+Rolling_Mean_30,Float,30-day rolling average modal price computed over shifted past observations (shift(1)).,2380.10,Monthly trend benchmark filtered from day-to-day noise.
+Rolling_Std_30,Float,30-day rolling standard deviation of modal price computed over shifted past observations.,45.80,Quantifies medium-term macroeconomic price volatility and structural market swings.
+temperature_2m_mean,Float,Daily mean surface air temperature at 2 meters altitude in Celsius (°C).,28.4,Retrieved from Open-Meteo API; reflects local thermal stress impacting crop perishability.
+temperature_2m_max,Float,Maximum daily surface air temperature in Celsius (°C).,34.1,Indicates extreme heat conditions that accelerate post-harvest spoilage in transit.
+temperature_2m_min,Float,Minimum daily surface air temperature in Celsius (°C).,22.3,Indicates nocturnal thermal levels affecting crop storage and field harvesting.
+precipitation_sum,Float,Total daily precipitation recorded across the market area in millimeters (mm).,14.2,"Heavy rainfall causes rural road disruptions, reduces mandi arrivals, and triggers temporary price spikes."
+wind_speed_10m_max,Float,Maximum recorded daily wind speed at 10 meters altitude in km/h.,18.5,Severe wind storm indicator associated with transportation friction and local weather disruptions.
